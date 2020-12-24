@@ -1,0 +1,29 @@
+#line{
+    text-align: center;
+    min-width: 260px;
+    position: relative;
+}
+#line:before{
+    background-color: black;
+    width: 20px;
+    height: .1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+    }
+#line:after{
+    background-color: black;
+    width: 20px;
+    height: .1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+    }
+
+.check{
+    border: 2px solid red;
+}
